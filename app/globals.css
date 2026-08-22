@@ -587,7 +587,7 @@ button {
   .hero {
     min-height: 88vh;
     min-height: 100svh;
-    align-items: center;
+    align-items: flex-start;
   }
   .hero-media img {
     object-position: center 22%;
@@ -602,8 +602,8 @@ button {
     );
   }
   .hero-content {
-    padding-top: 72px;
-    padding-bottom: 84px;
+    padding-top: 40px;
+    padding-bottom: 96px;
   }
   .hero-title {
     font-size: clamp(2.5rem, 11vw, 3.4rem);
